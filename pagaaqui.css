@@ -1,0 +1,128 @@
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: "Barlow", sans-serif;
+    color: #575756;
+    background-color: #fff;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.pagaaqui-container {
+    max-width: 1300px;
+    width: 95%;
+    margin: auto;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+.main-container {
+    padding: 10%;
+    border-radius: 50px;
+    background-color: #f2f2f2;
+}
+
+.paga-header {
+    padding: 5%;
+    text-align: center;
+}
+
+.methods {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.method {
+    margin-bottom: 0px;
+}
+
+.button-container {
+    margin-top: 20px;
+    a {
+        text-decoration:none;
+    }
+}
+
+.paga-button {
+    display: inline-block;
+    padding: 10px 30px;
+    color:#fff;
+    text-decoration:none;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.button-rosa {
+    background-color: #AE4995;
+}
+
+.button-azul {
+    background-color: #3C69B1;
+}
+
+.text-rosa {
+    color: #AE4995;
+}
+
+.text-azul {
+    color: #3C69B1;
+}
+
+.preffooter {
+    text-align: center;
+    a {
+        text-decoration: none;
+        color:#575756;
+    }
+}
+@media screen and (max-width:768px) {
+    .methods {
+        flex-direction: column;
+    }
+    .method:first-child {
+        margin-bottom: 40px;
+    }
+}
